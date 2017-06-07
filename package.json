@@ -10,11 +10,10 @@
     "template"
   ],
   "directories": {
-    "doc": "docs",
-    "test": "test"
+    "template": "template"
   },
   "scripts": {
-    "test": "xo && ava --verbose"
+    "test": "xo && cross-env CURRENT_DIR=./test/example ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -32,6 +31,17 @@
   "homepage": "https://github.com/oknoorap/create-simple-pkg#readme",
   "devDependencies": {
     "ava": "^0.19.1",
+    "cross-env": "^5.0.0",
     "xo": "^0.18.2"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false
+  },
+  "ava": {
+    "files": [
+      "test/test.js"
+    ]
   }
 }
