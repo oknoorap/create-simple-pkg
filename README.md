@@ -4,7 +4,7 @@
   <br/>
   <br/>
   <p>
-    :tada: CLI Tool to Create Simple Node.js Package Repository
+    :tada: CLI Tool for Scaffolding Simple Node.js Module Repository
   </p>
   <p><br /></p>
   <p>
