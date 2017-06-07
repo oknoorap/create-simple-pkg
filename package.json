@@ -1,0 +1,37 @@
+{
+  "name": "create-simple-pkg",
+  "version": "1.0.0",
+  "description": "CLI Tool for Scaffolding Simple Node.js Module Repository",
+  "bin": {
+    "create-simple-pkg": "bin/create-simple-pkg"
+  },
+  "files": [
+    "bin",
+    "template"
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "xo && ava --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oknoorap/create-simple-pkg.git"
+  },
+  "keywords": [
+    "cli",
+    "scaffold-template"
+  ],
+  "author": "oknoorap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oknoorap/create-simple-pkg/issues"
+  },
+  "homepage": "https://github.com/oknoorap/create-simple-pkg#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "xo": "^0.18.2"
+  }
+}
