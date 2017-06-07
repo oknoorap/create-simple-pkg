@@ -23,7 +23,7 @@ const compiles = ({srcDir, dstDir, rename = {}}) => {
 
 const createSimplePkg = () => new Promise(resolve => {
   const srcDir = path.resolve(__dirname, '..', 'template')
-  const dstDir = process.cwd()
+  const dstDir = process.env.CURRENT_DIR || process.cwd()
 
   compiles({
     srcDir,
