@@ -10,11 +10,10 @@
     "template"
   ],
   "directories": {
-    "doc": "docs",
-    "test": "test"
+    "template": "template"
   },
   "scripts": {
-    "test": "xo && ava --verbose"
+    "test": "cross-env CURRENT_DIR=./test xo && ava --verbose"
   },
   "repository": {
     "type": "git",
@@ -34,5 +33,15 @@
     "ava": "^0.19.1",
     "cross-env": "^5.0.0",
     "xo": "^0.18.2"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false
+  },
+  "ava": {
+    "files": [
+      "test/test.js"
+    ]
   }
 }
