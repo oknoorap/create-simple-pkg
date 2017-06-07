@@ -9,9 +9,7 @@
     "xo": "^0.18.2"
   },
   "ava": {
-    "files": [
-      "test/test.js"
-    ]
+    "files": []
   },
   "xo": {
     "esnext": true,
