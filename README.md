@@ -6,7 +6,6 @@
   <p>
     :tada: CLI Tool for Scaffolding Simple Node.js Module Repository
   </p>
-  <p><br /></p>
   <p>
     <a href="http://travis-ci.org/oknoorap/create-simple-pkg">
       <img src="https://img.shields.io/travis/oknoorap/create-simple-pkg/master.svg"/>
