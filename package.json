@@ -13,7 +13,7 @@
     "template": "template"
   },
   "scripts": {
-    "test": "cross-env CURRENT_DIR=./test xo && ava --verbose"
+    "test": "xo && cross-env CURRENT_DIR=./test/example ava --verbose"
   },
   "repository": {
     "type": "git",
