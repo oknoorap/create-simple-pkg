@@ -32,6 +32,7 @@ const createSimplePkg = () => new Promise(resolve => {
       'gitignore': '.gitignore'
     }
   })
+  process.stdout.write('Well done, stranger.')
   resolve()
 })
 
