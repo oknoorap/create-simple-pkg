@@ -1,6 +1,6 @@
 <div align="center">
   <br/>
-  <img src="./docs/pkg.svg" width="300" />
+  <img src="https://rawgit.com/oknoorap/create-simple-pkg/develop/docs/pkg.svg" width="300" />
   <br/>
   <br/>
   <p>
