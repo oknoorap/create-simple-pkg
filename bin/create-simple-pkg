@@ -1,0 +1,38 @@
+#!/usr/bin/env node
+
+const {readdirSync, existsSync, writeFileSync, readFileSync, statSync} = require('fs')
+const path = require('path')
+
+const fileCompiler = ({srcPath, dstPath}) => {
+  const input = readFileSync(srcPath, 'ascii')
+  writeFileSync(dstPath, input, 'utf-8')
+}
+
+const compiles = ({srcDir, dstDir, rename = {}}) => {
+  const files = readdirSync(srcDir)
+
+  files.forEach(filename => {
+    const srcPath = path.join(srcDir, filename)
+    const dstPath = path.join(dstDir, (filename in rename) ? rename[filename] : filename)
+
+    if (existsSync(srcPath) && statSync(srcPath).isFile()) {
+      fileCompiler({srcPath, dstPath})
+    }
+  })
+}
+
+const createSimplePkg = () => new Promise(resolve => {
+  const srcDir = path.resolve(__dirname, '..', 'template')
+  const dstDir = process.cwd()
+
+  compiles({
+    srcDir,
+    dstDir,
+    rename: {
+      'gitignore': '.gitignore'
+    }
+  })
+  resolve()
+})
+
+module.exports = createSimplePkg()
