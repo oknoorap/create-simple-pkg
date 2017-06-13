@@ -1,31 +1,31 @@
-<div align="center">
+<p align="center">
   <br/>
   <img src="https://rawgit.com/oknoorap/create-simple-pkg/develop/docs/pkg.svg" width="300" />
   <br/>
-  <br/>
-  <p>
-    :tada: CLI Tool for Scaffolding Simple Node.js Module Repository
-  </p>
-  <p>
-    <a href="http://travis-ci.org/oknoorap/create-simple-pkg">
-      <img src="https://img.shields.io/travis/oknoorap/create-simple-pkg/master.svg"/>
-    </a>
-    <a href="https://gitter.im/oknoorap/create-simple-pkg">
-      <img src="https://img.shields.io/npm/dm/create-simple-pkg.svg?maxAge=2592000"/>
-    </a>
-    <a href="http://badge.fury.io/js/create-simple-pkg">
-      <img src="https://badge.fury.io/js/create-simple-pkg.svg"/>
-    </a>
-    <a href="http://isitmaintained.com/project/oknoorap/create-simple-pkg">
-      <img src="http://isitmaintained.com/badge/open/oknoorap/create-simple-pkg.svg"/>
-    </a>
-    <a href="http://isitmaintained.com/project/oknoorap/create-simple-pkg">
-      <img src="http://isitmaintained.com/badge/resolution/oknoorap/create-simple-pkg.svg"/>
-    </a>
-  </p>
-  <p><br /></p>
-  <p><br /></p>
-</div>
+</p>
+<br/>
+<p align="center">
+CLI Tool for Scaffolding Simple Node.js Module Repository
+</p>
+<p align="center">
+  <a href="http://travis-ci.org/oknoorap/create-simple-pkg">
+    <img src="https://img.shields.io/travis/oknoorap/create-simple-pkg/master.svg"/>
+  </a>
+  <a href="https://gitter.im/oknoorap/create-simple-pkg">
+    <img src="https://img.shields.io/npm/dm/create-simple-pkg.svg?maxAge=2592000"/>
+  </a>
+  <a href="http://badge.fury.io/js/create-simple-pkg">
+    <img src="https://badge.fury.io/js/create-simple-pkg.svg"/>
+  </a>
+  <a href="http://isitmaintained.com/project/oknoorap/create-simple-pkg">
+    <img src="http://isitmaintained.com/badge/open/oknoorap/create-simple-pkg.svg"/>
+  </a>
+  <a href="http://isitmaintained.com/project/oknoorap/create-simple-pkg">
+    <img src="http://isitmaintained.com/badge/resolution/oknoorap/create-simple-pkg.svg"/>
+  </a>
+</p>
+<p><br /></p>
+<p><br /></p>
 
 ## :computer: Install
 
