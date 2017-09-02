@@ -30,8 +30,8 @@
   },
   "homepage": "https://github.com/oknoorap/create-simple-pkg#readme",
   "devDependencies": {
-    "ava": "^0.19.1",
-    "cross-env": "^5.0.0",
+    "ava": "^0.22.0",
+    "cross-env": "^5.0.5",
     "xo": "^0.18.2"
   },
   "xo": {
