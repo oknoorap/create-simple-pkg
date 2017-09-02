@@ -1,6 +1,6 @@
 {
   "name": "create-simple-pkg",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "CLI Tool for Scaffolding Simple Node.js Module Repository",
   "bin": {
     "create-simple-pkg": "bin/create-simple-pkg"
